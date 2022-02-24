@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background: rgba(88, 101, 242, 1);
+
+    overscroll-behavior: none;
+    background-size: none;
+    color: white;
+
+    font-family: Righteous;
+    height: 100vh;
+}
+.bogusg{
+    text-decoration: none;
+    color: white;
+}
+.rectdark{
+
+   background: rgba(44, 47, 51, 1);
+    position: absolute;
+    right: 0%;
+   height: 100vh;
+   width: 90vh;
+   border-radius: 20px 0px 0px 20px;
+   z-index: 1;
+
+
+}
+.spotsbg{
+
+    position: absolute;
+    top: -2%;
+    left: -2%;
+
+}
+.bluebottom{
+
+    height: 400px;
+    width:400px ;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+
+}
+.bluetop{
+
+    height: 250px;
+    width:250px ;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+
+}
+
+.slogan{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000
+
+
+}
+.mainsection{
+    position: absolute;
+    right: 0%;
+   height: 100vh;
+   width: 90vh;
+   border-radius: 20px 0px 0px 20px;
+   z-index: 1;
+}
+.textbogus{
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
+
+}
+.form{
+
+    position:absolute ;
+    top: 30%;
+
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.email{
+    padding: 15px;
+    font-family: Righteous;
+    font-size: 25px;
+    height:40px ;
+    width: 30rem;
+    margin-left: 5%;
+    border-radius: 20px;
+    background:  rgba(220, 221, 238, 0.81);;
+    border: 1px solid #5865F2
+
+
+}
+.showpass{
+  display:flex;
+  flex-direction: row;
+  
+}
+.showcheck{
+  width:25px;
+  height:50px;
+  margin: 25px;
+  margin-top: 30px;
+  
+  
+}
+
+
+.passtext{
+  width: 160px;
+  margin-top: 45px;
+  font-size: 21.5px
+}
+.pass{
+
+    padding: 15px;
+    font-family: Righteous;
+    font-size: 25px;
+    height:40px ;
+    width: 30rem;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 20px;
+    background:  rgba(220, 221, 238, 0.81);;
+    border: 1px solid #5865F2
+
+}
+.username{
+
+    padding: 15px;
+    font-family: Righteous;
+    font-size: 25px;
+    height:40px ;
+    width: 30rem;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 20px;
+    background:  rgba(220, 221, 238, 0.81);;
+    border: 1px solid #5865F2
+
+}
+.signup{
+
+    font-family: Righteous;
+    font-size: 25px;
+    margin-top: 150px;
+    height:60px ;
+    width: 200px;
+    margin-left: 5%;
+    border-radius: 5px;
+    background: rgba(88, 101, 242, 1);
+    color: white;
+    border: 1px solid #5865F2
+
+
+
+}
+.signup:hover{
+
+
+    color: rgba(88, 101, 242, 1);
+    background: white;
+
+}
+.gtext{
+
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+.gtext:hover{
+
+   color:rgba(88, 101, 242, 1);
+
+
+
+}
+
+.backlink{
+
+    height: 40px;
+    width: 40px;
+
+    margin-left: 30px;
+    margin-top: 150px;
+    border-radius: 20px;
+    z-index: 2;
+
+}
+.backlink:hover{
+
+    background: rgba(88, 101, 242, 1);
+
+
+}
+
+@media (min-width:10em) and (max-width:70em) {
+
+
+  .spotsbg,.bluebottom,.bluetop,.slogan,.rectdark{
+    display: none;
+
+  }
+  body{
+    background: rgba(44, 47, 51, 1);
+    overscroll-behavior:none;
+    background-size: contain;
+  }
+  .mainsection{
+
+      right: 0%;
+
+      width:clamp(370px,100%,800px);
+    }
+    .email,.pass{
+      width:clamp(300px,100%,440px);
+    }
+    .signup{
+      margin-left:5%
+    }
+
+}

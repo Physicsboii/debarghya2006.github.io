@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    /* background: linear-gradient(360deg, #5865F2 0%, #5865F2 ,#5865F2 100%); */
+    background: linear-gradient(360deg, #1A1928 0%, #1A1928 ,#1A1928 100%);
+    overscroll-behavior:none;
+    background-size: contain;
+    color: white;
+    overflow: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    height: 100vh;
+}
+.homelink{
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.textcon{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin-bottom: 70px;
+	font-family: Righteous;
+	font-size: 25px;
+}
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+    
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid white 1px;
+}
+
+.mole {
+	background-image: url("https://cdn.discordapp.com/attachments/922789042037350441/923813685279997982/depositphotos_213939680-stock-illustration-old-school-bit-pixel-art.jpg");
+	background-size: cover;
+}
